@@ -1,4 +1,4 @@
-from stackbrew/ubuntu:12.04
+from resin/rpi-raspbian:wheezy
 maintainer Shipyard Project "http://shipyard-project.com"
 run apt-get update
 run apt-get install -y libdevmapper1.02.1 libsqlite3-0
